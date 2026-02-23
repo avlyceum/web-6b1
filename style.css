@@ -1,0 +1,94 @@
+:root {
+  --black: #18191f;
+  --silver: #f5f7fa;
+  --primary: #4caf4f;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 76px;
+}
+
+header {
+  background-color: var(--silver);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header nav {
+  display: flex;
+  gap: 50px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 400;
+}
+
+header nav a.active {
+  font-weight: 500;
+}
+
+#header-auth {
+  display: flex;
+  gap: 14px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button.large {
+  padding: 14px 32px;
+  font-size: 16px;
+}
+
+.button.ghost {
+  background-color: transparent;
+  color: var(--primary);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#hero {
+  background-color: var(--silver);
+}
+
+#hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 96px 45px;
+}
+
+#hero h1 {
+  margin-bottom: 16px;
+}
+
+#hero h1 span {
+  color: var(--primary);
+}
+
+#hero .button {
+  margin-top: 32px;
+}
